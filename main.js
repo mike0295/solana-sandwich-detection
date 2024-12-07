@@ -1,3 +1,5 @@
+import { data } from './SOLANA_MAINNET-BLOCK-304934283.json' assert { type: 'json' };
+
 function extract_balance_changes(transaction) {
     const balanceChanges = [];
     const preBalances = transaction.meta.preTokenBalances;
@@ -193,5 +195,4 @@ function extract_sandwich_transactions(data) {
     return {"data": sandwichTransactions};
 }
 
-const data = require('./SOLANA_MAINNET-BLOCK-304934283.json');
 console.log(extract_sandwich_transactions(data));

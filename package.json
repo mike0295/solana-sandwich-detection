@@ -9,9 +9,15 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "supabase": "^1.223.10"
+    "supabase": "^1.223.10",
+    "typescript": "^5.7.2"
   },
   "dependencies": {
-    "@supabase/supabase-js": "^2.46.2"
-  }
+    "@solana/web3.js": "^1.95.8",
+    "@supabase/supabase-js": "^2.46.2",
+    "bigint-buffer": "^1.1.5",
+    "dotenv": "^16.4.7",
+    "postgres": "^3.4.5"
+  },
+  "type": "module"
 }
